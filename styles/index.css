@@ -1,0 +1,34 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#main{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    display:grid;
+   
+    justify-content: center;
+
+    
+
+}
+input{
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    
+
+}
+#voucher_list{
+    display:grid ;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    
+}
+#purchased_voucher{
+    display:grid ;
+    grid-template-columns: repeat(4,1fr); 
+}
